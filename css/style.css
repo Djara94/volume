@@ -11,7 +11,22 @@ body {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+background-image: url("zenbg1.png");
+background-repeat: repeat-x, repeat;
 }
+
+.container {
+    background-color: #fff;
+}
+
+nav .container {
+    background-color: #000000;
+}
+
+nav {
+    background-color: #000000;
+}
+
 
 .img-portfolio {
     margin-bottom: 30px;
